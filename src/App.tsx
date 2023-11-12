@@ -13,7 +13,7 @@ const App = () => {
       <Text
         style={{
           fontSize: 50,
-          marginTop: 350,
+          marginTop: 250,
           textAlign: 'center',
           fontWeight: 'bold',
         }}>
@@ -26,7 +26,7 @@ const App = () => {
           elevation: 10,
           height: 40,
           width: 200,
-          marginHorizontal: 140,
+          marginHorizontal: 90,
           marginTop: 10,
           borderRadius: 5,
         }}
@@ -38,16 +38,42 @@ const App = () => {
           elevation: 10,
           height: 40,
           width: 200,
-          marginHorizontal: 140,
+          marginHorizontal: 90,
           marginTop: 10,
           borderRadius: 5,
         }}
       />
       <TouchableOpacity
-        style={{ marginTop: 20, marginHorizontal: 150}}>
-        <Text>Lupa password.?</Text>
+        style={{ marginTop: 20, marginHorizontal: 100}}>
+        <Text>Lupa password?</Text>
+      </TouchableOpacity>
+      
+      <TouchableOpacity
+        style={{
+          backgroundColor: 'white',
+          elevation: 10,
+          height: 40,
+          width: 200,
+          marginHorizontal: 90,
+          marginTop: 10,
+          borderRadius: 5,}}>
+        <Text
+        style={{
+          marginTop: 10,
+          textAlign: 'center',
+          fontWeight: 'bold',}}>LOGIN</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={{ marginTop: 20, marginHorizontal: 100}}>
+        <Text>Belum punya akun?</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={{ marginTop: 20, marginHorizontal: 100}}>
+        <Text>DAFTAR</Text>
       </TouchableOpacity>
     </View>
+    
   );
 };
 
