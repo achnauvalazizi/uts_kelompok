@@ -28,4 +28,4 @@ fungcion Navigation() {
     );
 }
 
-export default Navigation;
+export default navigation;
